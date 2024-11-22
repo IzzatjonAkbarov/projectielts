@@ -1,0 +1,80 @@
+.showcase_txt {
+  width: 70%;
+  padding: 100px 0;
+}
+.showcase_txt h1 {
+  font-family: var(--font3);
+  font-weight: 400;
+  font-size: 64px;
+  color: var(--color_white);
+}
+.showcase_txt h1 span {
+  font-size: 70px;
+}
+.showcase_txt div {
+  border-radius: 56px;
+  width: 136px;
+  height: 6px;
+  background: #d9d9d9;
+  margin: 18px 0;
+}
+.showcase_txt p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--color_white);
+  margin-bottom: 38px;
+}
+.showcase_txt button {
+  background: rgba(105, 114, 144, 0.57);
+  border-radius: 6px;
+  padding: 17px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #eaeaea;
+}
+.showcase_txt button:active {
+  transform: scale(1.1);
+}
+@media (max-width: 1024px) {
+  .showcase_txt h1 {
+    font-size: 44px;
+  }
+  .showcase_txt h1 span {
+    font-size: 50px;
+  }
+  .showcase_txt p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .showcase_txt {
+    padding: 40px 0;
+  }
+  .showcase_txt h1 {
+    font-size: 24px;
+  }
+  .showcase_txt h1 span {
+    font-size: 30px;
+  }
+  .showcase_txt p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 550px) {
+  .showcase_txt {
+    padding: 30px 0;
+    width: 100%;
+  }
+  .showcase_txt h1 {
+    font-size: 20px;
+  }
+  .showcase_txt h1 span {
+    font-size: 26px;
+  }
+  .showcase_txt button {
+    font-size: 14px;
+  }
+}

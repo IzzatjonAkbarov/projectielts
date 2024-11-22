@@ -1,0 +1,11 @@
+.about_card {
+  padding: 19px 25px;
+  background: var(--color_secondary);
+  border-radius: 15px;
+  color: var(--color_white);
+}
+.about_cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
